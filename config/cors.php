@@ -27,12 +27,9 @@ return [
         'http://localhost:3000',
         'http://localhost:3002',
         'http://127.0.0.1:3000',
-        'http://127.0.0.1:3002',
+        // 'http://127.0.0.1:3002',
         'http://localhost:5173',
-        // Deployed Vercel frontend (specific domains)
-        'https://frontend-react-q1gnl3hwz-yin-khins-projects.vercel.app',
-        'https://frontend-react-sable.vercel.app',
-        'https://frontend-react-git-main-yin-khins-projects.vercel.app',
+        'https://imskh.netlify.app',
     ],
     // Wildcard: allow any subdomain ending in .vercel.app
     'allowed_origins_patterns' => [
